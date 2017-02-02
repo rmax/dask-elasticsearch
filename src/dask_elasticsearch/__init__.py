@@ -8,7 +8,7 @@ from elasticsearch.helpers import scan
 
 __author__ = 'Rolando (Max) Espinoza'
 __email__ = 'rolando at rmax.io'
-__version__ = '0.1.0-dev'
+__version__ = '0.1.0'
 
 
 def _elasticsearch_scan(client_cls, client_kwargs, **params):
